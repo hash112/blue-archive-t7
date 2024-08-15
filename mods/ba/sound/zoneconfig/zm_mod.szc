@@ -1,0 +1,33 @@
+{
+    "Name": "zm_mod",
+    "IsStandalone": true,
+    "IsProduction": false,
+    "IsShipped": false,
+    "DontDeploy": false,
+    "NoStreamBank": false,
+    "MapFile": "",
+    "Standalone": true,
+    "Builds": [
+        "T7"
+    ],
+    "Sources": [
+        {
+            "Type": "ALIAS",
+            "Name": "arona_announ",
+            "Filename": "arona_announcer.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "jingles",
+            "Filename": "ba_jingles.csv",
+            "Specs": []
+        }, 
+        {
+            "Type": "ALIAS",
+            "Name": "t7_wpn",
+            "Filename": "t7_weapon_sounds.csv",
+            "Specs": []
+        }, 
+    ]
+}

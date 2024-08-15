@@ -1,0 +1,43 @@
+scriptparsetree,scripts/zm/_zm_ba_weapons.gsc
+scriptparsetree,scripts/zm/_zm_ba_weapons.csc
+
+stringtable,gamedata/weapons/zm/zm_ba_weapons.csv
+
+// Chinatsu (Bo3 Mauser C96)
+weapon,t7_ba_pistol_mc96_zm 
+weapon,t7_ba_pistol_mc96_upgraded_zm 
+
+// Momoi (MW G3)
+// Marina (WaW PPSh)
+// Izuna (WaW Type 100)
+// Wakamo (WaW Arizaka)
+// Iori (WaW Kar98k)
+// Hina (WaW MG42)
+// Azusa (MW2 M4A1)
+// Mari (MW2 Desert Eagle)
+// Yoshimi (MW2 Scar-H)
+// Asuna (MW2 FAMAS)
+// Eimi (Bo1 SPAS-12)
+// Aru (Bo1 PSG1)
+// Minori (Bo1 AK-47)
+// Airi (Bo1 MP5K) 
+// Tsubaki (Bo1 Skorpion)
+// Natsu (Bo1 Uzi)
+// Shimiko (MW3 Scar-L)
+// Chihiro (Bo2 M27)
+// Fuuka (Bo2 MP7)
+// Michiru (Bo2 Remington 870)
+// Atsuko (Bo2 Skorpion EVO)
+// Junko (Bo3 StG-44)
+// Kirino (Bo3 BloodHound)
+// Mina (Bo3 MR6)
+// Misaki Shokuhou (Bo3 M1911)
+// Saten Ruiko (Bo3 Thompson)
+// Kanna (MW2019 X16)
+// Shizuko (CW Mauer 77)
+// Utaha (CW Mac 10)
+
+// Mine Shield (Rocket shield)
+// Natsu shield (Zetsubow shield)
+// Iron Horus (Dragon shield)
+// Tsubaki shield (Origins shield)
