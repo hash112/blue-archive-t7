@@ -2351,7 +2351,6 @@
 		"locale_zombie" "0"
 		"materialCategory" "Geometry"
 		"materialType" "cloth"
-		"matError" "INVALID MATERIAL TYPE ''"
 		"matureContent" "0"
 		"maxRayDepth" "1000"
 		"missileClip" "0"
@@ -2740,7 +2739,7 @@
 	"i_ba_blue_envelope_c" ( "image.gdf" )
 	{
 		"arabicUnsafe" "0"
-		"baseImage" "model_export\\t7_ba\\global\\blue_gacha.png"
+		"baseImage" "model_export\\t7_ba\\global\\i_t7_ba_blue_gacha.png"
 		"clampU" "0"
 		"clampV" "0"
 		"colorSRGB" "0"
@@ -2785,7 +2784,7 @@
 	"i_t7_ba_peroro_c" ( "image.gdf" )
 	{
 		"arabicUnsafe" "0"
-		"baseImage" "model_export\\t7_ba\\global\\textures\\Perorozilla_Original.png"
+		"baseImage" "model_export\\t7_ba\\global\\textures\\i_t7_ba_peroro.png"
 		"clampU" "0"
 		"clampV" "0"
 		"colorSRGB" "0"
@@ -5303,7 +5302,7 @@
 	"uie_img_t7_menu_frontend_asset_bo3logo" ( "image.gdf" )
 	{
 		"arabicUnsafe" "0"
-		"baseImage" "model_export\\t7_ba\\global\\ba_logo.png"
+		"baseImage" "model_export\\t7_ba\\global\\i_t7_ba_logo.png"
 		"clampU" "0"
 		"clampV" "0"
 		"colorSRGB" "0"
