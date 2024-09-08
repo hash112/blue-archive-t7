@@ -8,3 +8,7 @@ mus_perks_speed_sting,,streamed,jingles\ba_speed_cola_sting.wav,,,,,,,,BUS_FX,gr
 #Juggernog
 mus_perks_jugganog_jingle,,streamed,jingles\ba_juggernog_jingle.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,
 mus_perks_jugganog_sting,,streamed,jingles\ba_juggernog_sting.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,
+
+#Quick Revive
+mus_perks_revive_jingle,,streamed,jingles\ba_quick_revive_jingle.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,
+mus_perks_revive_sting,,streamed,jingles\ba_quick_revive_sting.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,

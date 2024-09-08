@@ -21,10 +21,15 @@ image,uie_img_t7_menu_frontend_asset_bo3logo
 //image,uie_t7_menu_frontend_titlenumbrdrum
 
 //ba models
-xmodel,t7_ba_shigure_fb
-xmodel,t7_ba_chise_fb
 xmodel,t7_ba_hare_fb
 xmodel,t7_ba_aru_fb
+xmodel,t7_ba_shigure_fb
+xmodel,t7_ba_chise_fb
+xmodel,t7_ba_momoi_fb
+xmodel,t7_ba_hina_fb
+xmodel,t7_ba_yuuka_fb
+xmodel,t7_ba_shiroko_fb
+xmodel,t7_ba_mari_fb
 
 //zm models
 xmodel,c_zom_zod_boxer_mpc_fb
@@ -49,22 +54,22 @@ xmodel,c_zom_zod_magician_viewhands
 
 xmodel,c_zom_der_richtofen_mpc_fb
 xmodel,c_zom_der_richtofen_viewlegs
-//xmodel,c_zom_der_richtofen_viewbody
+xmodel,c_zom_der_richtofen_viewbody
 xmodel,c_zom_der_richtofen_viewhands
 
 xmodel,c_zom_der_dempsey_mpc_fb
 xmodel,c_zom_der_dempsey_viewlegs
-//xmodel,c_zom_der_dempsey_viewbody
+xmodel,c_zom_der_dempsey_viewbody
 xmodel,c_zom_der_dempsey_viewhands
 
 xmodel,c_zom_der_nikolai_mpc_fb
 xmodel,c_zom_der_nikolai_viewlegs
-//xmodel,c_zom_der_nikolai_viewbody
+xmodel,c_zom_der_nikolai_viewbody
 xmodel,c_zom_der_nikolai_viewhands
 
 xmodel,c_zom_der_takeo_mpc_fb
 xmodel,c_zom_der_takeo_viewlegs
-//xmodel,c_zom_der_takeo_viewbody
+xmodel,c_zom_der_takeo_viewbody
 xmodel,c_zom_der_takeo_viewhands
 
 xmodel,c_zom_der_richtofen_cin_fb
@@ -72,8 +77,8 @@ xmodel,c_zom_der_dempsey_cin_fb
 xmodel,c_zom_der_nikolai_cin_fb
 xmodel,c_zom_der_takeo_cin_fb
 
-//xmodel,c_zom_dlc_waw_dempsey_body
-//xmodel,c_zom_dlc_waw_dempsey_head
+xmodel,c_zom_dlc_waw_dempsey_body
+xmodel,c_zom_dlc_waw_dempsey_head
 //xmodel,c_zom_dlc_waw_dempsey_mpc_body
 //xmodel,c_zom_dlc_waw_nikolai_fb
 //xmodel,c_zom_dlc_waw_takeo_nohat_fb

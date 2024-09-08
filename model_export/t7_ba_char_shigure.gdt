@@ -10742,7 +10742,7 @@
 		"usage_zombie_body" "0"
 		"usage_zombie_world_prop" "0"
 	}
-	"t7_ba_shigure_fb_mp" ( "xmodel.gdf" )
+	"t7_ba_shigure_fb_mpc" ( "xmodel.gdf" )
 	{
 		"arabicUnsafe" "0"
 		"autogenLod4" "0"
@@ -11390,31 +11390,10 @@
 		"usage_zombie_body" "0"
 		"usage_zombie_world_prop" "0"
 	}
-	"c_zom_der_nikolai_viewlegs" [ "t7_ba_shigure_viewlegs" ]
+	"c_t7_zm_dlchd_moon_pressuresuit_nikolai_mpc" [ "t7_ba_shigure_fb_mpc" ]
 	{
 	}
-	"c_zom_der_nikolai_viewhands" [ "t7_ba_shigure_viewhands" ]
-	{
-	}
-	"c_zom_der_nikolai_cin_fb" [ "t7_ba_shigure_fb" ]
-	{
-	}
-	"c_zom_dlc3_nikolai_cin_fb" [ "t7_ba_shigure_fb" ]
-	{
-	}
-	"c_zom_dlc_nikolai_cin_fb" [ "t7_ba_shigure_fb" ]
-	{
-	}
-	"c_zom_der_nikolai_mpc_fb" [ "t7_ba_shigure_fb_mp" ]
-	{
-	}
-	"c_zom_dlc3_nikolai_mpc_fb" [ "t7_ba_shigure_fb_mp" ]
-	{
-	}
-	"c_t7_zm_dlchd_moon_pressuresuit_nikolai_mpc" [ "t7_ba_shigure_fb_mp" ]
-	{
-	}
-	"c_t7_zm_dlchd_nikolai_waw_mpc_fb" [ "t7_ba_shigure_fb_mp" ]
+	"c_t7_zm_dlchd_nikolai_waw_mpc_fb" [ "t7_ba_shigure_fb_mpc" ]
 	{
 	}
 	"c_t7_zm_dlchd_nikolai_waw_viewhands" [ "t7_ba_shigure_viewhands" ]

@@ -4,8 +4,8 @@ scriptparsetree,scripts/zm/_zm_ba_weapons.csc
 stringtable,gamedata/weapons/zm/zm_ba_weapons.csv
 
 // Chinatsu (Bo3 Mauser C96)
-weapon,t7_ba_pistol_mc96_zm 
-weapon,t7_ba_pistol_mc96_upgraded_zm 
+
+weapon,pistol_c96_upgraded_zm
 
 // Momoi (MW G3)
 
@@ -60,4 +60,13 @@ weapon,t7_ba_pistol_mc96_upgraded_zm
 // Mine Shield (Rocket shield)
 // Natsu shield (Zetsubow shield)
 // Iron Horus (Dragon shield)
+
+weapon,dragon_shield_zm
+weapon,dragon_shield_upgraded_zm
+xmodel,wpn_t7_zmb_dlc3_dragon_window
+xmodel,wpn_t7_zmb_dlc3_dragon_head
+xmodel,wpn_t7_zmb_dlc3_dragon_pelvis
+//weapon,dragon_shield_projectile_zm
+//weapon,dragon_shield_upgraded_projectile_zm
+
 // Tsubaki shield (Origins shield)

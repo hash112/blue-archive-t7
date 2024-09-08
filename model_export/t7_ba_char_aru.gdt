@@ -9785,7 +9785,7 @@
 		"usage_zombie_body" "0"
 		"usage_zombie_world_prop" "0"
 	}
-	"t7_ba_aru_fb_mp" ( "xmodel.gdf" )
+	"t7_ba_aru_fb_mpc" ( "xmodel.gdf" )
 	{
 		"arabicUnsafe" "0"
 		"autogenLod4" "0"
@@ -10433,10 +10433,10 @@
 		"usage_zombie_body" "0"
 		"usage_zombie_world_prop" "0"
 	}
-	"c_t7_zm_dlchd_moon_pressuresuit_richtofen_mpc" [ "t7_ba_aru_fb_mp" ]
+	"c_t7_zm_dlchd_moon_pressuresuit_richtofen_mpc" [ "t7_ba_aru_fb_mpc" ]
 	{
 	}
-	"c_t7_zm_dlchd_richtofen_waw_mpc_fb" [ "t7_ba_aru_fb_mp" ]
+	"c_t7_zm_dlchd_richtofen_waw_mpc_fb" [ "t7_ba_aru_fb_mpc" ]
 	{
 	}
 	"c_t7_zm_dlchd_richtofen_waw_viewhands" [ "t7_ba_aru_viewhands" ]
