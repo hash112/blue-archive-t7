@@ -19,15 +19,33 @@
         },
         {
             "Type": "ALIAS",
+            "Name": "plana_announ",
+            "Filename": "plana_announcer.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
             "Name": "jingles",
             "Filename": "ba_jingles.csv",
             "Specs": []
-        }, 
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "t5_wpn",
+            "Filename": "t5_weapon_sounds.csv",
+            "Specs": []
+        },
         {
             "Type": "ALIAS",
             "Name": "t7_wpn",
             "Filename": "t7_weapon_sounds.csv",
             "Specs": []
-        }, 
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "hitmarkers",
+            "Filename": "hb21_hitmarkers.csv",
+            "Specs": []
+        },
     ]
 }

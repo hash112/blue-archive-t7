@@ -11269,6 +11269,36 @@
 		"usage_zombie_body" "0"
 		"usage_zombie_world_prop" "0"
 	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_upg_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg0_upg_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg0_upg_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_upg_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_upg_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
+	{
+	}
+	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_upg_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
+	{
+	}
 	"wpn_t7_zmb_dlc3_dragon_window" ( "xmodel.gdf" )
 	{
 		"arabicUnsafe" "0"
@@ -11484,35 +11514,5 @@
 		"usage_weapon" "0"
 		"usage_zombie_body" "0"
 		"usage_zombie_world_prop" "0"
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_upg_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg0_upg_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg0_upg_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_upg_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_upg_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg2_world" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_world" ]
-	{
-	}
-	"wpn_t7_zmb_dlc3_dragon_shield_dmg1_upg_view" [ "wpn_t7_zmb_dlc3_dragon_shield_dmg0_view" ]
-	{
 	}
 }

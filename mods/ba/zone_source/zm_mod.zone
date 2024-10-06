@@ -9,14 +9,92 @@ rawfile,dummy.cfg
 
 include,ba_weapons
 
-scriptparsetree,scripts\zm\gametypes\_clientids.gsc
-scriptparsetree,scripts\zm\cw_maxammo.gsc
-scriptparsetree,scripts\zm\zm_counter.gsc
-scriptparsetree,scripts\zm\bo4_carpenter.gsc
-scriptparsetree,scripts\zm\perkplus.gsc
+localize,ba_zm
+localize,subevent
+localize,scoreevent
+
+material,specialty_ads_zombies
+material,specialty_three_guns_zombies
+
+rawfile,ui/uieditor/menus/startmenu/T6StartMenu_GameOptions_ZM.lua
+rawfile,ui/uieditor/menus/startmenu/H1StartMenu_GameOptions_ZM.lua
+rawfile,ui/uieditor/menus/startmenu/IW7StartMenu_GameOptions_ZM.lua
+rawfile,ui/uieditor/menus/startmenu/S4StartMenu_GameOptions_ZM.lua
+rawfile,ui/uieditor/widgets/startmenu/StartMenu_GameOptions_KF2.lua
+
+// zm scripts
+scriptparsetree,scripts/ba/zm/character_mgr.gsc
+scriptparsetree,scripts/ba/zm/character_mgr.csc
+scriptparsetree,scripts/ba/zm/zm_character.gsc
+scriptparsetree,scripts/ba/zm/gameplay.gsc
+scriptparsetree,scripts/ba/zm/gameplay.csc
+scriptparsetree,scripts/ba/zm/perkplus.gsc
+scriptparsetree,scripts/ba/zm/t8_perkloss.gsc
+scriptparsetree,scripts/ba/zm/magicboxshare.gsc
+scriptparsetree,scripts/ba/zm/mule_kick_indicator.gsc
+scriptparsetree,scripts/ba/zm/mule_kick_return.gsc
+scriptparsetree,scripts/ba/zm/zm_bot.gsc
+scriptparsetree,scripts/ba/zm/zm_counter.gsc
+scriptparsetree,scripts/ba/zm/zm_sub.gsc
+scriptparsetree,scripts/ba/zm/zm_sub.csc
+scriptparsetree,scripts/ba/zm/coldwar_scoreevent.gsc
+
+//Frost Iceforge's BO4 Carpenter
+scriptparsetree,scripts/ba/zm/bo4_carpenter.gsc
+
+// zombie health bar
+scriptparsetree,scripts/ba/zm/_aae_zombie_health_bar.gsc
+scriptparsetree,scripts/ba/zm/_aae_zombie_health_bar.csc
+
+scriptparsetree,scripts/zm/_zm_ffotd.gsc
+scriptparsetree,scripts/zm/_zm_ffotd.csc
+
+// TF's Zombie Options
+scriptparsetree,scripts/zm/tfoptions.csc
+scriptparsetree,scripts/zm/tfoptions.gsc
+scriptparsetree,scripts/zm/zmSaveData.gsc
+
+// scriptparsetree,scripts/zm/gametypes/_globallogic_spawn.gsc
+scriptparsetree,scripts/zm/infinityloader.gsc
+
+scriptparsetree,scripts/zm/bo4_full_ammo.gsc
+scriptparsetree,scripts/zm/better_nuke.gsc
+
+scriptparsetree,scripts/zm/_zm_powerup_free_perk.csc
+scriptparsetree,scripts/zm/_zm_powerup_free_perk.gsc
+
+scriptparsetree,scripts/zm/roamer.gsc
+
+// NSZ Zombie Money 
+scriptparsetree,scripts/_NSZ/nsz_powerup_money.gsc
+scriptparsetree,scripts/_NSZ/nsz_powerup_money.csc
+xmodel,powerup_money
+
+//Custom Powerups By ZoekMeMaar
+scriptparsetree,scripts/_ZoekMeMaar/custom_powerup_free_packapunch_with_time.gsc
+scriptparsetree,scripts/_ZoekMeMaar/custom_powerup_free_packapunch_with_time.csc
+xmodel,free_packapunch
+
+//timed gameplay
+scriptparsetree,scripts/zm/ugxmods_timedgp.gsc
+
+// hitmarkers
+// scriptparsetree,scripts/zm/zm_damagefeedback.gsc
+scriptparsetree,scripts/zm/_hb21_zm_hitmarkers.gsc
+
+// unlimited and random bgbs
+// requires T7MTEnhancements to compile
+// https://github.com/Scobalula/T7MTEnhancements
+scriptparsetree,scripts/zm/_zm_bgb.csc
+scriptparsetree,scripts/zm/_zm_bgb.gsc
+scriptparsetree,scripts/zm/_zm_bgb_machine.csc
+scriptparsetree,scripts/zm/_zm_bgb_machine.gsc
 
 //arona_announcer
 sound,zm_mod
+
+// non-player
+//xmodel,c_t7_zm_dlchd_origins_mech_claw
 
 // Nonomi
 xmodel,wpn_t7_mingun_view
@@ -75,3 +153,15 @@ xmodel,p7_zm_der_magic_box_fake
 xmodel,p7_zm_vending_sleight
 xmodel,p7_zm_vending_jugg
 xmodel,p7_zm_vending_revive
+xmodel,p7_zm_vending_doubletap2
+
+// EE
+xmodel,c_zom_dlc_waw_dempsey_body
+xmodel,c_zom_dlc_waw_dempsey_head
+xmodel,c_zom_dlc_waw_dempsey_mpc_body
+xmodel,c_zom_dlc_waw_nikolai_fb
+xmodel,c_zom_dlc_waw_takeo_nohat_fb
+
+xmodel,p7_zm_sta_temp_heroes_pose_dempsey
+xmodel,p7_zm_sta_temp_heroes_pose_nikolai
+xmodel,p7_zm_sta_temp_heroes_pose_takeo

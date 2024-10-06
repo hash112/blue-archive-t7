@@ -98,7 +98,7 @@ ignore_missing_shipped,zm_patch
 >level.xpak_read,base_patch_tu30
 >level.xpak_read,base_patch_tu31
 >level.xpak_read,base_patch_tu32
-xmodel,p7_gib_chunk_meat_01
-xmodel,p7_gib_chunk_meat_02
-xmodel,p7_gib_chunk_meat_03
+localize,ba_zm
+localize,subevent
+localize,scoreevent
 sound,zm_mod

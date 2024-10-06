@@ -9599,7 +9599,7 @@
 		"DetailShadows" "0"
 		"doNotUse" "0"
 		"dropLOD" "Auto"
-		"filename" "t7_ba\\hare\\t7_ba_hare_fb.XMODEL_BIN"
+		"filename" "t7_ba\\hare\\t7_ba_hare_cin.XMODEL_BIN"
 		"forceLod4Rigid" "0"
 		"forceLod5Rigid" "0"
 		"forceLod6Rigid" "0"
@@ -10451,9 +10451,6 @@
 	"c_zom_der_dempsey_viewlegs" [ "t7_ba_hare_viewlegs" ]
 	{
 	}
-	"c_54i_cqb_mpc_fb_fe" [ "t7_ba_hare_fb_mpc" ]
-	{
-	}
 	"c_zom_der_dempsey_mpc_fb" [ "t7_ba_hare_fb_mpc" ]
 	{
 	}
@@ -10674,6 +10671,9 @@
 		"usage_zombie_world_prop" "0"
 	}
 	"c_zom_der_dempsey_viewbody" [ "t7_ba_hare_viewbody" ]
+	{
+	}
+	"c_54i_cqb_mpc_fb_fe" [ "t7_ba_hare_fb_mpc" ]
 	{
 	}
 }

@@ -33,6 +33,7 @@
 
 #namespace zm_counter;
 
+
 function init()
 {
 	thread _INIT_ZCOUNTER();

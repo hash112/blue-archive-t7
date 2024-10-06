@@ -1,7 +1,7 @@
-scriptparsetree,scripts/zm/_zm_ba_weapons.gsc
-scriptparsetree,scripts/zm/_zm_ba_weapons.csc
+//scriptparsetree,scripts/ba/zm/_zm_ba_weapons.gsc
+//scriptparsetree,scripts/ba/zm/_zm_ba_weapons.csc
 
-stringtable,gamedata/weapons/zm/zm_ba_weapons.csv
+//stringtable,gamedata/weapons/zm/zm_ba_weapons.csv
 
 // Chinatsu (Bo3 Mauser C96)
 
@@ -31,6 +31,10 @@ weapon,pistol_c96_upgraded_zm
 // Aru (Bo1 PSG1)
 // Minori (Bo1 AK-47)
 // Airi (Bo1 MP5K) 
+
+//weapon,smg_standard_zm
+//weapon,smg_standard_upgraded_zm
+
 // Tsubaki (Bo1 Skorpion)
 // Natsu (Bo1 Uzi)
 // Makoto (Bo1 WA2000)
@@ -58,6 +62,15 @@ weapon,pistol_c96_upgraded_zm
 // Utaha (CW Mac 10)
 
 // Mine Shield (Rocket shield)
+
+weapon,zod_riotshield_zm
+weapon,zod_riotshield_upgraded_zm
+weapon,t7_castle_riotshield_zm
+weapon,t7_castle_riotshield_upgraded_zm
+xmodel,wpn_t7_zmb_zod_rocket_shield_tank_parts
+xmodel,wpn_t7_zmb_zod_rocket_shield_eagle
+xmodel,wpn_t7_zmb_zod_rocket_shield_window
+
 // Natsu shield (Zetsubow shield)
 // Iron Horus (Dragon shield)
 
@@ -69,4 +82,4 @@ xmodel,wpn_t7_zmb_dlc3_dragon_pelvis
 //weapon,dragon_shield_projectile_zm
 //weapon,dragon_shield_upgraded_projectile_zm
 
-// Tsubaki shield (Origins shield)
+// Valkirye shield (Origins shield)

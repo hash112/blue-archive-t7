@@ -6728,7 +6728,7 @@
 		"DetailShadows" "0"
 		"doNotUse" "0"
 		"dropLOD" "Auto"
-		"filename" "t7_ba\\minori\\t7_ba_minori_fb.xmodel_bin"
+		"filename" "t7_ba\\minori\\t7_ba_minori_cin.XMODEL_BIN"
 		"forceLod4Rigid" "0"
 		"forceLod5Rigid" "0"
 		"forceLod6Rigid" "0"
@@ -7800,6 +7800,9 @@
 		"usage_zombie_world_prop" "0"
 	}
 	"c_zom_der_nikolai_viewbody" [ "t7_ba_minori_viewbody" ]
+	{
+	}
+	"c_zom_dlc3_nikolai_mpc_fb_nohat" [ "t7_ba_minori_fb_mpc" ]
 	{
 	}
 }

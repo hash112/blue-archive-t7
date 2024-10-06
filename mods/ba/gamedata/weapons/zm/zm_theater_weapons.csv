@@ -1,0 +1,2 @@
+weapon_name,upgrade_name,hint,cost,weaponVO,weaponVOresp,ammo_cost,create_vox,obsolete_false,in_box,upgrade_in_box,is_limited,limit,upgrade_limit,obsolete2_false,wallbuy_autospawn,class,is_aat_exempt,is_wonder_weapon,force_attachments
+t5_mp5k,t5_mp5k_up,,1000,smg,,,,,TRUE,FALSE,FALSE,,,FALSE,TRUE,smg,,,

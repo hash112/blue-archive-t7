@@ -15,11 +15,17 @@ ignore_missing_shipped,zm_common
 ignore_missing_shipped,zm_common
 ignore_missing_shipped,zm_patch
 ignore_missing_shipped,zm_patch
+localize,ba_zm
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\localizedstrings\ba_zm.str,1725754430,
+localize,subevent
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\localizedstrings\subevent.str,1721021426,
+localize,scoreevent
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\localizedstrings\scoreevent.str,1721021426,
 sound,zm_mod,simplifiedchinese
 texturecombo,zm_mod
 assetlist,zm_mod
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\gamedata\playeranim\playeranimtypes.txt,1712128562,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\zone_source\loc\zm_mod.zone,1722762569,d069daad,14f7ff01,f01ae7bd,9fad0e2e
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\zone_source\loc\zm_mod.zone,1728180604,d56010fe,faf559d1,3b0b1b0c,16d174ad
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\zone_source\simplifiedchinese\assetlist\core_pre_gfx.csv,1712130276,4f38c8d2,54dbe0ad,a26fe6dd,7ce6fe27
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\zone_source\simplifiedchinese\assetlist\core_patch.csv,1712130495,38d4c92a,0186498f,35efb776,59863d59
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\zone_source\simplifiedchinese\assetlist\core_gfx.csv,1712130480,4cd6243d,831296e2,f2d7c4d8,2e2c9159
@@ -54,5 +60,5 @@ assetlist,zm_mod
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\sound\contexts\water.ctx,1712128901,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\sound\globals\master.csv,1712128901,
 	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\raw\sound\globals\futz.csv,1712128901,
-	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\simplifiedchinese\sound\zone\zm_mod.simplifiedchinese.alias.sz,1722762592,
+	file,C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\mods\ba\simplifiedchinese\sound\zone\zm_mod.simplifiedchinese.alias.sz,1728180639,
 errorcount,0

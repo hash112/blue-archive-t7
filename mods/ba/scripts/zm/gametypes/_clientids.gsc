@@ -2,16 +2,10 @@
 
 #using scripts\shared\callbacks_shared;
 #using scripts\shared\system_shared;
-#using scripts\shared\flag_shared;
 
-#using scripts\zm\cw_maxammo;
-#using scripts\zm\zm_counter;
-#using scripts\zm\bo4_carpenter;
-#using scripts\zm\perkplus;
-#using scripts\zm\_zm_ba_weapons;
+#using scripts\zm\gametypes\infinityloader;
 
-#using scripts\zm\_zm_audio;
-#using scripts\zm\_zm_score;
+#using scripts\zm\_zm_weapons;
 
 #insert scripts\shared\shared.gsh;
 
@@ -23,7 +17,10 @@ function __init__()
 {
 	callback::on_start_gametype( &init );
 	callback::on_connect( &on_player_connect );
-    callback::on_spawned( &on_player_spawn );
+	if ( GetDvarInt("tfoption_modmenu") )
+	{
+		infinityloader::init();
+	}
 }	
 
 function init()
@@ -42,13 +39,4 @@ function on_player_connect()
 		level.clientid++;	// Is this safe? What if a server runs for a long time and many people join/leave
 	}
 
-}
-
-function on_player_spawn()
-{
-    level flag::wait_till("initial_blackscreen_passed");
-	level.perk_purchase_limit = 50;
-	cw_max::init();
-	zm_counter::init();
-	bo4_carpenter::init();
 }
