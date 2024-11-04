@@ -363,5 +363,32 @@ LANG_ITALIAN         "#same"
 LANG_TRADITIONALCHINESE         "#same"
 LANG_SIMPLIFIEDCHINESE         "#same"
 
+REFERENCE            YUZU_NAME
+LANG_ENGLISH         "Hanaoka Yuzu"
+LANG_GERMAN         "#same"
+LANG_SPANISH         "#same"
+LANG_RUSSIAN         "#same"
+LANG_PORTUGUESE         "#same"
+LANG_POLISH         "#same"
+LANG_JAPANESE         "#same"
+LANG_FRENCH         "#same"
+LANG_ENGLISHARABIC         "#same"
+LANG_ITALIAN         "#same"
+LANG_TRADITIONALCHINESE         "#same"
+LANG_SIMPLIFIEDCHINESE         "#same"
+
+REFERENCE            YUZU_BIO
+LANG_ENGLISH         "A 1st year student and member of the Ninjutsu Research Club of the Allied Hyakkiyako Academy, Izuna is a bright and bubbly girl who dreams of one day becoming "the best ninja of Kivotos". But to others, her goal seems like a pipe dream, resulting in her becoming a lone fox.\nIn order to become a proper ninja, she continues to refer to Sensei as "lord" while "escorting" (simply chasing Sensei around Kivotos) and devoting herself to various other activities."
+LANG_GERMAN         "#same"
+LANG_SPANISH         "#same"
+LANG_RUSSIAN         "#same"
+LANG_PORTUGUESE         "#same"
+LANG_POLISH         "#same"
+LANG_JAPANESE         "#same"
+LANG_FRENCH         "#same"
+LANG_ENGLISHARABIC         "#same"
+LANG_ITALIAN         "#same"
+LANG_TRADITIONALCHINESE         "#same"
+LANG_SIMPLIFIEDCHINESE         "#same"
 
 ENDMARKER

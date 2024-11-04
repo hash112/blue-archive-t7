@@ -4,6 +4,7 @@
 #using scripts\shared\system_shared;
 
 #using scripts\zm\gametypes\infinityloader;
+#using scripts\zm\zm_flamethrower;
 
 #using scripts\zm\_zm_weapons;
 
@@ -32,6 +33,7 @@ function init()
 
 function on_player_connect()
 {
+	// zm_flamethrower::init();
 	self.clientid = matchRecordNewPlayer( self );
 	if ( !isdefined( self.clientid ) || self.clientid == -1 )
 	{

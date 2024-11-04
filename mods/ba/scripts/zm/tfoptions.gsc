@@ -38,8 +38,6 @@
 // // NSZ Zombie Blood Powerup
 // #using scripts\_NSZ\nsz_powerup_zombie_blood;
 
-//#using scripts\ba\zm\_zm_ba_weapons;
-
 //bo4 max ammo
 #using scripts\zm\bo4_full_ammo;
 
@@ -117,7 +115,7 @@ function autoexec auto_preload()
     level.tfoptions_default["perk_lose"] = 0;
     level.tfoptions_default["bot_count"] = 1;
     level.tfoptions_default["boxshare"] = 0;
-    // level.tfoptions_defalut["ba_weapons"] = 0;
+    level.tfoptions_defalut["ba_weapons"] = 0;
     level.tfoptions_default["bot_command"] = 0;
     level.tfoptions_default["bgb_loadout"] = 0;
     level.tfoptions_default["cheats"] = 0;
@@ -249,11 +247,6 @@ function on_player_spawned()
     if ( GetDvarInt("tfoption_max_ammo", 0) ) {
         self thread give_max_ammo();
     }
-
-    // if (GetDvarInt("tfoption_ba_weapons", 0))
-    // {
-    //     zm_ba_weapons::main();
-    // }
 }
 
 function wait_for_tfoptions_changed()
@@ -991,12 +984,3 @@ function sprintSetter()
         level waittill( "between_round_over" );
     }
 }
-
-// function activate_ba_weapons()
-// {
-//     self endon("disconnect");
-//     self endon("bled_out");
-//     level flag::wait_till("initial_blackscreen_passed");
-//     IPrintLnBold("Hola");
-// }
-

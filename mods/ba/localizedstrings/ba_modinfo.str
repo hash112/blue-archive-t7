@@ -224,7 +224,7 @@ LANG_TRADITIONALCHINESE         "#same"
 LANG_SIMPLIFIEDCHINESE         "#same"
 
 REFERENCE           FAQ_CUSTOM_MAPS_DESC
-LANG_ENGLISH     "This mod was focused for vanilla maps. Most custom maps should work, keep in mind that maybe in the future may not be compatible due to dumb reasons. Certain maps are equipped with anti-cheating and don't allow the usage of mods. \n\nThis mod should work on all maps GFL mod works, you can click here to see compatibility"
+LANG_ENGLISH     "This mod was focused for vanilla maps. Most custom maps should work\n\nCertain maps are equipped with dumb anti-cheating stuff and don't allow the usage of mods or load any custom weapon. \n\nThis mod should work on all maps GFL mod works, you can click here to see compatibility"
 LANG_GERMAN         "#same"
 LANG_SPANISH         "#same"
 LANG_RUSSIAN         "#same"

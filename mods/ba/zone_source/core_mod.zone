@@ -31,6 +31,7 @@ localize,menu
 stringtable,gamedata/ba/nametable.csv
 stringtable,gamedata/stats/zm/zm_statstable.csv
 stringtable,gamedata/stats/zm/statsmilestones3.csv
+stringtable,gamedata/weapons/zm/zm_gunlevels.csv
 stringtable,gamedata/tables/zm/scoreinfo.csv
 
 scriptparsetree,scripts/ba/_load.gsc
@@ -84,6 +85,9 @@ rawfile,ui/t7/utility/CCUtility.lua
 rawfile,ui/t7/utility/CCUtility_og.luac
 rawfile,ui/t7/utility/LobbyUtility.lua
 rawfile,ui/t7/utility/LobbyUtility_og.luac
+
+rawfile,ui/t6/CodBase.lua
+rawfile,ui/t6/CodBase_og.luac
 
 rawfile,ui_mp/T6/hud.lua
 rawfile,ui_mp/T6/hud_og.luac
@@ -207,6 +211,8 @@ image,t7_menu_mp_hero_background_with_mari
 image,t7_menu_mp_hero_background_with_fubuki
 image,t7_menu_mp_hero_background_with_minori
 image,t7_menu_mp_hero_background_with_izuna
+//image,t7_menu_mp_hero_background_with_yuzu
+//image,t7_menu_mp_hero_background_with_hoshino
 
 image,t7_menu_choosespecialist_default_black
 image,t7_menu_choosespecialist_default_hare
@@ -221,6 +227,8 @@ image,t7_menu_choosespecialist_default_momoi
 image,t7_menu_choosespecialist_default_shigure
 image,t7_menu_choosespecialist_default_aru
 image,t7_menu_choosespecialist_default_izuna
+//image,t7_menu_choosespecialist_default_yuzu
+//image,t7_menu_choosespecialist_default_hoshino
 
 //ba models
 
@@ -237,6 +245,8 @@ xmodel,t7_ba_mari_fb
 xmodel,t7_ba_fubuki_fb
 xmodel,t7_ba_minori_fb
 xmodel,t7_ba_izuna_fb
+//xmodel,t7_ba_yuzu_fb
+//xmodel,t7_ba_hoshino_fb
 
 //zm models
 xmodel,c_zom_zod_boxer_mpc_fb

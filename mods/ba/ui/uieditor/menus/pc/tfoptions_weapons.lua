@@ -73,15 +73,15 @@ DataSources.TFOptionsWeaponsP1 = DataSourceHelpers.ListSetup("PC.TFOptionsWeapon
         },
         properties = CoD.TFPCUtil.OptionsGenericCheckboxProperties
     })
-    -- table.insert(f26_local0, {
-    --     models = {
-    --         label = "TF_BA_WEAPONS",
-    --         description = "TF_BA_WEAPONS_DESC",
-    --         profileVarName = "ba_weapons",
-    --         widgetType = "tfcheckbox"
-    --     },
-    --     properties = CoD.TFPCUtil.OptionsGenericCheckboxProperties
-    -- })
+    table.insert(f26_local0, {
+        models = {
+            label = "TF_BA_WEAPONS",
+            description = "TF_BA_WEAPONS_DESC",
+            profileVarName = "ba_weapons",
+            widgetType = "tfcheckbox"
+        },
+        properties = CoD.TFPCUtil.OptionsGenericCheckboxProperties
+    })
     return f26_local0
 end, true)
 

@@ -31,14 +31,62 @@
         },
         {
             "Type": "ALIAS",
+            "Name": "iw3_wpn",
+            "Filename": "iw3_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "iw4_wpn",
+            "Filename": "iw4_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "iw8_wpn",
+            "Filename": "iw8_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
             "Name": "t5_wpn",
             "Filename": "t5_weapon_sounds.csv",
             "Specs": []
         },
         {
             "Type": "ALIAS",
+            "Name": "t6_wpn",
+            "Filename": "t6_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
             "Name": "t7_wpn",
             "Filename": "t7_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "t8_wpn",
+            "Filename": "t8_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "s1_wpn",
+            "Filename": "s1_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "s2_wpn",
+            "Filename": "s2_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "t9_wpn",
+            "Filename": "t9_weapon_sounds.csv",
             "Specs": []
         },
         {

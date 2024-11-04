@@ -1274,7 +1274,7 @@ LANG_TRADITIONALCHINESE         "#same"
 LANG_SIMPLIFIEDCHINESE         "#same"
 
 REFERENCE            BA_WEAPONS_DESC
-LANG_ENGLISH         "Replaces most weapons with older Call of duty weapons equivalent to Blue Archive weapons."
+LANG_ENGLISH         "Adds Blue Archive equivalent weapons to the mystery box and replace some wallbuys.\n\nWallbuys only on vanilla maps."
 LANG_GERMAN         "#same"
 LANG_SPANISH         "#same"
 LANG_RUSSIAN         "#same"

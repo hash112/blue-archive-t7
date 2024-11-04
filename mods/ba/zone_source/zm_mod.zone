@@ -90,6 +90,10 @@ scriptparsetree,scripts/zm/_zm_bgb.gsc
 scriptparsetree,scripts/zm/_zm_bgb_machine.csc
 scriptparsetree,scripts/zm/_zm_bgb_machine.gsc
 
+// force attachments removal
+scriptparsetree,scripts/zm/_zm_weapons.gsc
+scriptparsetree,scripts/zm/_zm_weapons.csc
+
 //arona_announcer
 sound,zm_mod
 
@@ -141,6 +145,8 @@ image,uie_t7_zm_hud_score_char8
 //image,uie_t7_zm_hud_score_char8_helmet
 //image,uie_t7_zm_hud_score_char8_gold_helmet
 //image,uie_t7_zm_hud_score_char8_mask
+//image,uie_t7_zm_hud_score_yuzu
+//image,uie_t7_zm_hud_score_hoshino
 
 // teddy
 xmodel,p7_zm_teddybear
@@ -154,6 +160,8 @@ xmodel,p7_zm_vending_sleight
 xmodel,p7_zm_vending_jugg
 xmodel,p7_zm_vending_revive
 xmodel,p7_zm_vending_doubletap2
+xmodel,p7_zm_vending_packapunch
+xmodel,p7_zm_vending_packapunch_on
 
 // EE
 xmodel,c_zom_dlc_waw_dempsey_body

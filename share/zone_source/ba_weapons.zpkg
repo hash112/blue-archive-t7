@@ -1,7 +1,28 @@
-//scriptparsetree,scripts/ba/zm/_zm_ba_weapons.gsc
-//scriptparsetree,scripts/ba/zm/_zm_ba_weapons.csc
+scriptparsetree,scripts\zm\_load.gsc
+scriptparsetree,scripts\zm\_load.csc
 
-//stringtable,gamedata/weapons/zm/zm_ba_weapons.csv
+stringtable,gamedata/weapons/zm/zm_ba_weapons.csv
+
+//image,i_t7_zm_chalk_buy_arak_c
+//image,i_t7_zm_chalk_buy_argus_c
+//image,i_t7_zm_chalk_buy_cqw_c
+//image,i_t7_zm_chalk_buy_hvk30_c
+//image,i_t7_zm_chalk_buy_krm_c
+//image,i_t7_zm_chalk_buy_kuda_c
+//image,i_t7_zm_chalk_buy_locus_c
+//image,i_t7_zm_chalk_buy_m8a4_c
+//image,i_t7_zm_chalk_buy_mp40_c
+//image,i_t7_zm_chalk_buy_pharaoh_c
+//image,i_t7_zm_chalk_buy_shiva_c
+//image,i_t7_zm_chalk_buy_spyder_c
+//image,i_t7_zm_chalk_buy_sten_c
+//image,i_t7_zm_chalk_buy_stg44_c
+//image,i_t7_zm_chalk_buy_thomp_c
+//image,i_t7_zm_chalk_buy_trip_mine_c
+//image,i_t7_zm_chalk_buy_triton_c
+//image,i_t7_zm_chalk_buy_vmp_c
+
+//scriptparsetree,scripts/zm/zm_flamethrower.gsc
 
 // Chinatsu (Bo3 Mauser C96)
 
@@ -9,17 +30,28 @@ weapon,pistol_c96_upgraded_zm
 
 // Momoi (MW G3)
 
+weapon,iw3_g3
+weapon,iw3_g3_up
+xmodel,iw3_g3_chalk
+
 // Marina (WaW PPSh)
 // Izuna (WaW Type 100)
-// Wakamo (WaW Arizaka)
-// Iori (WaW Kar98k)
-// Miyu (WaW Moshin-Nagant)
-// Hina (WaW MG42)
+
+// Miyu (WaW Mosin-Nagant)
 // Kazusa (WaW Bren)
 // Megu (WaW Flametrower)
 
 // Azusa (MW2 M4A1)
+// Natsu (MW2 Mini-Uzi)
+
+weapon,iw4_mini_uzi
+weapon,iw4_mini_uzi_up
+
 // Mari (MW2 Desert Eagle)
+
+weapon,iw4_desert_eagle
+weapon,iw4_desert_eagle_up
+
 // Yoshimi (MW2 Scar-H)
 // Asuna (MW2 FAMAS)
 // Mine (MW2 Model 1887)
@@ -27,39 +59,135 @@ weapon,pistol_c96_upgraded_zm
 // Sakurako (MW2 TAR-21)
 // Saya (MW2 M9)
 
+// Misaki Shokuhou (Bo1 M1911)
+
+weapon,t5_m1911
+weapon,t5_m1911_rdw_up_zm
+weapon,t5_m1911_ldw_up_zm
+weapon,pistol_m1911_zm
+weapon,pistol_m1911_upgraded_zm
+weapon,pistol_m1911lh_upgraded_zm
+weapon,pistol_standard_zm
+weapon,pistol_standard_upgraded_zm
+weapon,pistol_standardlh_upgraded_zm
+
 // Eimi (Bo1 SPAS-12)
+
+weapon,t5_spas12
+weapon,t5_spas12_up
+
 // Aru (Bo1 PSG1)
+
+weapon,t5_psg1
+weapon,t5_psg1_up
+
 // Minori (Bo1 AK-47)
+
+weapon,t5_ak47
+weapon,t5_ak47_up
+
 // Airi (Bo1 MP5K) 
 
-//weapon,smg_standard_zm
-//weapon,smg_standard_upgraded_zm
+weapon,t5_mp5k
+weapon,t5_mp5k_up
 
 // Tsubaki (Bo1 Skorpion)
-// Natsu (Bo1 Uzi)
+
+weapon,t5_skorpion
+weapon,t5_skorpion_up
+
 // Makoto (Bo1 WA2000)
 // Momiji (Bo1 RPG-7)
 // Toki (Bo1 G11)
+// Utaha (Bo1 Mac11)
+
+weapon,t5_mac11
+weapon,t5_mac11_up
 
 // Shimiko (MW3 Scar-L)
+// Yuzu (MW3 M320 GLM)
 // Koyuki (MW3 M60E4)
 
+weapon,iw5_m60e4
+weapon,iw5_m60e4_up
+xmodel,wpn_t7_zmb_grenade_frag_view
+xmodel,wpn_t7_zmb_grenade_frag_world
+xmodel,wpn_t7_zmb_grenade_frag_projectile
+xmodel,wpn_t7_grenade_frag_view
+xmodel,wpn_t7_grenade_frag_world
+xmodel,wpn_t7_grenade_frag_projectile
+
 // Chihiro (Bo2 M27)
+
+weapon,t6_m27
+weapon,t6_m27_up
+
 // Fuuka (Bo2 MP7)
 // Michiru (Bo2 Remington 870)
+
+weapon,t6_rem870mcs
+weapon,t6_rem870mcs_up
+
 // Atsuko (Bo2 Skorpion EVO)
 
+weapon,t6_skorpion_evo
+weapon,t6_skorpion_evo_up
+
+// Chise (Bo2 War Machine)
+
+weapon,t6_war_machine
+weapon,t6_war_machine_up
+
+// Yuuka (AW KF5)
+
+weapon,s1_kf5
+weapon,s1_kf5_up
+
 // Junko (Bo3 StG-44)
+
+weapon,ar_stg44_upgraded_zm
+
 // Kirino (Bo3 BloodHound)
-// Mina (Bo3 MR6)
-// Misaki Shokuhou (Bo3 M1911)
 // Saten Ruiko (Bo3 Thompson)
 
+// Wakamo (WW2 Arizaka)
+
+weapon,s2_type38
+weapon,s2_type38_up
+
+// Hina (WW2 MG42)
+
+weapon,s2_mg42
+weapon,s2_mg42_up
+
+// Fubuki (Bo4 Vendetta)
+
+weapon,t8_vendetta
+weapon,t8_vendetta_up
+
 // Kanna (MW2019 X16)
+// Shiroko (MW2019 Grau 5.56)
+
+weapon,iw8_grau556
+weapon,iw8_grau556_up
+
 // Reisa (MW2019 DP-12)
 
+// Iori (MW2019 Kar98k)
+
+weapon,iw8_kar98k_irons
+weapon,iw8_kar98k_irons_up
+
 // Shizuko (CW Mauer 77)
-// Utaha (CW Mac 10)
+
+weapon,t9_hauer77
+weapon,t9_hauer77_up
+
+// Hiyori (CW ZRG)
+// Sena (CW M79)
+
+weapon,t9_m79
+weapon,t9_m79_up
 
 // Mine Shield (Rocket shield)
 
@@ -72,6 +200,12 @@ xmodel,wpn_t7_zmb_zod_rocket_shield_eagle
 xmodel,wpn_t7_zmb_zod_rocket_shield_window
 
 // Natsu shield (Zetsubow shield)
+
+weapon,island_riotshield_zm
+xmodel,wpn_t7_zmb_dlc2_shield_door
+xmodel,wpn_t7_zmb_dlc2_shield_window
+xmodel,wpn_t7_zmb_dlc2_shield_frame
+
 // Iron Horus (Dragon shield)
 
 weapon,dragon_shield_zm

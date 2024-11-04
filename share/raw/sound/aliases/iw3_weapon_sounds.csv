@@ -1,0 +1,29 @@
+Name,Behavior,Storage,FileSpec,FileSpecSustain,FileSpecRelease,Template,Loadspec,Secondary,SustainAlias,ReleaseAlias,Bus,VolumeGroup,DuckGroup,Duck,ReverbSend,CenterSend,VolMin,VolMax,DistMin,DistMaxDry,DistMaxWet,DryMinCurve,DryMaxCurve,WetMinCurve,WetMaxCurve,LimitCount,LimitType,EntityLimitCount,EntityLimitType,PitchMin,PitchMax,PriorityMin,PriorityMax,PriorityThresholdMin,PriorityThresholdMax,AmplitudePriority,PanType,Pan,Futz,Looping,RandomizeType,Probability,StartDelay,EnvelopMin,EnvelopMax,EnvelopPercent,OcclusionLevel,IsBig,DistanceLpf,FluxType,FluxTime,Subtitle,Doppler,ContextType,ContextValue,ContextType1,ContextValue1,ContextType2,ContextValue2,ContextType3,ContextValue3,Timescale,IsMusic,IsCinematic,FadeIn,FadeOut,Pauseable,StopOnEntDeath,Compression,StopOnPlay,DopplerScale,FutzPatch,VoiceLimit,IgnoreMaxDist,NeverPlayTwice,ContinuousPan,FileSource,FileSourceSustain,FileSourceRelease,FileTarget,FileTargetSustain,FileTargetRelease,Platform,Language,OutputDevices,PlatformMask,WiiUMono,StopAlias,DistanceLpfMin,DistanceLpfMax,FacialAnimationName,RestartContextLoops,SilentInCPZ,ContextFailsafe,GPAD,GPADOnly,MuteVoice,MuteMusic,RowSourceFileName,RowSourceShortName,RowSourceLineNumber
+#CoD4 Heckler & Koch HK91A3 "G3"
+wpn_iw3_g3_shot_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_plr,,wpn_iw3_g3_tail_plr
+wpn_iw3_g3_shot_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_npc,,wpn_iw3_g3_tail_npc
+wpn_iw3_g3_pap_shot_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_plr,,wpn_iw3_g3_pap_flux_plr
+wpn_iw3_g3_pap_shot_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_npc,,wpn_iw3_g3_pap_flux_npc
+wpn_iw3_g3_tail_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_tail_ext.wav,,,wpn_iw3_reverb_ext_plr,,
+wpn_iw3_g3_tail_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_tail_ext.wav,,,wpn_iw3_reverb_ext_npc,,
+wpn_iw3_g3_tail_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_tail_int.wav,,,wpn_iw3_reverb_int_plr,,
+wpn_iw3_g3_tail_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_tail_int.wav,,,wpn_iw3_reverb_int_npc,,
+wpn_iw3_g3_pap_flux_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_pap_flux.wav,,,wpn_iw3_pap_shot_plr,,wpn_iw3_g3_tail_plr
+wpn_iw3_g3_pap_flux_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_pap_flux.wav,,,wpn_iw3_pap_shot_npc,,wpn_iw3_g3_tail_npc
+wpn_iw3_g3_charge,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_charge.wav,,,wpn_iw3_reload_plr,,
+wpn_iw3_g3_mag_in,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_mag_in.wav,,,wpn_iw3_reload_plr,,
+wpn_iw3_g3_mag_out,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_mag_out.wav,,,wpn_iw3_reload_plr,,
+wpn_iw3_g3_start,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_start.wav,,,wpn_iw3_reload_plr,,
+#CoD4 G3 Underwater Sounds
+wpn_iw3_g3_shot_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_wtr_plr,,wpn_iw3_g3_tail_plr
+wpn_iw3_g3_shot_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_wtr_npc,,wpn_iw3_g3_tail_npc
+wpn_iw3_g3_pap_shot_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_wtr_plr,,wpn_iw3_g3_pap_flux_plr
+wpn_iw3_g3_pap_shot_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_shot.wav,,,wpn_iw3_shot_wtr_npc,,wpn_iw3_g3_pap_flux_npc
+wpn_iw3_g3_tail_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_tail_ext.wav,,,wpn_iw3_reverb_wtr_plr,,
+wpn_iw3_g3_tail_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_tail_ext.wav,,,wpn_iw3_reverb_wtr_npc,,
+wpn_iw3_g3_pap_flux_plr,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_pap_flux.wav,,,wpn_iw3_pap_shot_wtr_plr,,wpn_iw3_g3_tail_plr
+wpn_iw3_g3_pap_flux_npc,,,skye_ports\iw3_g3\fire\wpn_iw3_g3_pap_flux.wav,,,wpn_iw3_pap_shot_wtr_npc,,wpn_iw3_g3_tail_npc
+wpn_iw3_g3_charge,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_charge.wav,,,wpn_iw3_reload_wtr_plr,,
+wpn_iw3_g3_mag_in,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_mag_in.wav,,,wpn_iw3_reload_wtr_plr,,
+wpn_iw3_g3_mag_out,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_mag_out.wav,,,wpn_iw3_reload_wtr_plr,,
+wpn_iw3_g3_start,,,skye_ports\iw3_g3\foley\wpn_iw3_g3_start.wav,,,wpn_iw3_reload_wtr_plr,,

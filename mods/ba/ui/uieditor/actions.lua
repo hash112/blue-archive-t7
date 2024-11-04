@@ -316,6 +316,24 @@ function GetHeroesList_InGame( customizationMode )
 		disabled = false,
 		gameImageOff = "uie_t7_zm_hud_score_izuna",
 	})
+
+	-- table.insert(heroes, {
+	-- 	character = "yuzu",
+	-- 	displayName = "Yuzu",
+	-- 	backgroundWithCharacter = "t7_menu_mp_hero_background_with_yuzu",
+	-- 	frozenMomentRender = "t7_menu_choosespecialist_default_yuzu",
+	-- 	disabled = false,
+	-- 	gameImageOff = "uie_t7_zm_hud_score_yuzu",
+	-- })
+
+	-- table.insert(heroes, {
+	-- 	character = "hoshino",
+	-- 	displayName = "Hoshino",
+	-- 	backgroundWithCharacter = "t7_menu_mp_hero_background_with_hoshino",
+	-- 	frozenMomentRender = "t7_menu_choosespecialist_default_hoshino",
+	-- 	disabled = false,
+	-- 	gameImageOff = "uie_t7_zm_hud_score_hoshino",
+	-- })
 	
 	for i, hero in ipairs( heroes ) do
 		local index = i - 1

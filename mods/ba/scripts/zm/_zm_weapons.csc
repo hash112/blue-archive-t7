@@ -22,6 +22,7 @@ function __init__()
 {
 	level flag::init( "weapon_table_loaded" );
 	level flag::init( "weapon_wallbuys_created" );
+
 	callback::on_localclient_connect( &on_player_connect );
 }
 
@@ -45,7 +46,6 @@ function private on_player_connect( localClientNum )
 		SetWeaponCosts( localClientNum, weaponCost.weapon, weaponCost.cost, weaponCost.ammo_cost, player_cost ); 
 	}
 }
-
 
 
 function is_weapon_included( weapon )
@@ -463,6 +463,87 @@ function checkStringValid( str )
 	return undefined;
 }
 
+function is_custom()
+{
+	map_name = ToLower(GetDvarString("mapname"));
+	switch(map_name)
+	{
+		case "zm_zod":
+		case "zm_factory":
+		case "zm_castle":
+		case "zm_island":
+		case "zm_stalingrad":
+		case "zm_genesis":
+		case "zm_prototype":
+		case "zm_asylum":
+		case "zm_sumpf":
+		case "zm_theater":
+		case "zm_cosmodrome":
+		case "zm_temple":
+		case "zm_moon":
+		case "zm_tomb":
+			return false;
+			break;
+
+		default:
+			return true;
+			break;
+	}
+}
+
+function is_box_wpn(wpn)
+{
+	boxwpn = array(
+		"thundergun", 
+		"tesla_gun",  
+		"smg_ppsh",   
+		"smg_mp40",   
+		"smg_mp40_1940",
+		"ray_gun",    
+		"launcher_multi",
+		"pistol_shotgun_dw",
+		"pistol_energy",
+		"smg_longrange",
+		"smg_thompson",
+		"ar_garand",  
+		"ar_famas",   
+		"ar_pacekeeper",
+		"shotgun_precision",
+		"shotgun_energy",
+		"sniper_fastbolt",
+		"special_crossbow_dw",
+		"idgun",      
+		"hero_annihilator",
+		"hero_gravityspikes_melee",
+		"hero_mirg2000",
+		"raygun_mark3",
+		"iw3_g3",
+		"iw4_desert_eagle",
+		"t5_ak47",
+		"t5_mp5k",
+		"t5_mac11",
+		"t5_psg1",
+		"iw5_m60e4",
+		"t6_m27",
+		"t6_skorpion_evo",
+		"t6_war_machine",
+		"s1_kf5",
+		"ar_stg44",
+		"s2_mg42",
+		"t8_vendetta",
+		"iw8_grau556",
+		"t9_hauer77",
+		"t9_m79"
+	);
+
+	if(IsInArray(boxwpn, wpn))
+	{
+		return true;
+	}
+
+	return false;
+}
+
 function load_weapon_spec_from_table( table, first_row )
 {
 	gametype = GetDvarString( "ui_gametype" );
@@ -484,7 +565,14 @@ function load_weapon_spec_from_table( table, first_row )
 		}
 		create_vox 			= checkStringValid( row[WEAPON_TABLE_COL_CREATE_VOX] );
 		is_zcleansed 		= (ToLower( row[WEAPON_TABLE_COL_IS_ZCLEANSED] ) == "true");
-		in_box 				= (ToLower( row[WEAPON_TABLE_COL_IN_BOX] ) == "true");
+		in_box				= ( ToLower( row[ WEAPON_TABLE_COL_IN_BOX ] ) == "true" );
+		if(!is_custom())
+		{
+			if(GetDvarInt("tfoption_ba_weapons", 1) && !is_box_wpn(weapon_name))
+			{
+				in_box = false;
+			}
+		}
 		upgrade_in_box 		= (ToLower( row[WEAPON_TABLE_COL_UPGRADE_IN_BOX] ) == "true");
 		is_limited 			= (ToLower( row[WEAPON_TABLE_COL_IS_LIMITED] ) == "true");
 		limit 				= int( row[WEAPON_TABLE_COL_LIMIT] );
