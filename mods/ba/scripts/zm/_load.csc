@@ -30,6 +30,8 @@
 #using scripts\zm\_zm_traps;
 #using scripts\zm\craftables\_zm_craftables;
 #using scripts\zm\gametypes\_weaponobjects;
+// #using scripts\Sphynx\commands\_zm_commands;
+#using scripts\zm\_ba_utils;
 
 #using scripts\zm\_zm_weapons;
 
@@ -109,7 +111,7 @@ function main()
 	#/
 	if(GetDvarInt("tfoption_ba_weapons", 1))
 	{
-		level thread change_wallbuys();
+		level thread ba_utils::change_wallbuys();
 	}
 	zm::init();
 	level thread server_time();
@@ -124,7 +126,6 @@ function main()
 	system::wait_till("all");
 	level thread art_review();
 	level flagsys::set("load_main_complete");
-	
 }
 
 /*
@@ -162,65 +163,3 @@ function register_clientfields()
 	clientfield::register("clientuimodel", "zmhud.swordChargeUpdate", 1, 1, "counter", undefined, 0, 0);
 }
 
-function is_custom()
-{
-	map_name = ToLower(GetDvarString("mapname"));
-	switch(map_name)
-	{
-		case "zm_zod":
-		case "zm_factory":
-		case "zm_castle":
-		case "zm_island":
-		case "zm_stalingrad":
-		case "zm_genesis":
-		case "zm_prototype":
-		case "zm_asylum":
-		case "zm_sumpf":
-		case "zm_theater":
-		case "zm_cosmodrome":
-		case "zm_temple":
-		case "zm_moon":
-		case "zm_tomb":
-			return false;
-			break;
-
-		default:
-			return true;
-			break;
-	}
-}
-
-function change_wallbuys()
-{
-    zm_weapons::load_weapon_spec_from_table( "gamedata/weapons/zm/zm_ba_weapons.csv", 1 );
-	if(is_custom())
-	{
-		return;
-	}
-	wallreplace = [];
-	wallreplace["pistol_burst"] = "pistol_burst"; // Mina
-	wallreplace["pistol_fullauto"] = "t5_skorpion"; // Tsubaki
-	wallreplace["ar_longburst"] = "ar_longburst"; // Asuna
-	wallreplace["ar_marksman"] = "iw3_g3"; // Momoi
-	wallreplace["ar_cqb"] = "ar_cqb"; // Azusa
-	wallreplace["ar_accurate"] = "t6_m27"; // Chihiro
-	wallreplace["ar_standard"] = "t5_ak47"; // Minori
-	wallreplace["ar_stg44"] = "ar_stg44"; // Junko
-	wallreplace["smg_standard"] = "t5_mp5k"; // Airi
-	wallreplace["smg_fastfire"] = "t6_skorpion_evo"; // Atsuko
-	wallreplace["smg_versatile"] = "iw4_mini_uzi"; // Natsu
-	wallreplace["smg_burst"] = "smg_burst"; // Fuuka
-	wallreplace["smg_sten"] = "smg_sten"; // Izuna
-	wallreplace["smg_thompson"] = "smg_thompson"; // Saten
-	wallreplace["smg_mp40_1940"] = "smg_mp40_1940";
-	wallreplace["shotgun_pump"] = "t6_rem870mcs"; // Michiru
-	wallreplace["shotgun_precision"] = "shotgun_precision"; // Mine
-	wallreplace["lmg_light"] = "iw5_m60e4"; // Koyuki
-	wallreplace["sniper_fastbolt"] = "sniper_fastbolt"; // Miyu
-
-	wallbuys = struct::get_array("weapon_upgrade", "targetname");
-    foreach (buy in wallbuys)
-    {
-        buy.zombie_weapon_upgrade = wallreplace[buy.zombie_weapon_upgrade];
-    }
-}

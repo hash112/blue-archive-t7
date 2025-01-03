@@ -211,8 +211,8 @@ image,t7_menu_mp_hero_background_with_mari
 image,t7_menu_mp_hero_background_with_fubuki
 image,t7_menu_mp_hero_background_with_minori
 image,t7_menu_mp_hero_background_with_izuna
-//image,t7_menu_mp_hero_background_with_yuzu
-//image,t7_menu_mp_hero_background_with_hoshino
+image,t7_menu_mp_hero_background_with_yuzu
+image,t7_menu_mp_hero_background_with_hoshino
 
 image,t7_menu_choosespecialist_default_black
 image,t7_menu_choosespecialist_default_hare
@@ -227,8 +227,8 @@ image,t7_menu_choosespecialist_default_momoi
 image,t7_menu_choosespecialist_default_shigure
 image,t7_menu_choosespecialist_default_aru
 image,t7_menu_choosespecialist_default_izuna
-//image,t7_menu_choosespecialist_default_yuzu
-//image,t7_menu_choosespecialist_default_hoshino
+image,t7_menu_choosespecialist_default_yuzu
+image,t7_menu_choosespecialist_default_hoshino
 
 //ba models
 
@@ -245,8 +245,9 @@ xmodel,t7_ba_mari_fb
 xmodel,t7_ba_fubuki_fb
 xmodel,t7_ba_minori_fb
 xmodel,t7_ba_izuna_fb
-//xmodel,t7_ba_yuzu_fb
-//xmodel,t7_ba_hoshino_fb
+xmodel,t7_ba_yuzu_fb
+xmodel,t7_ba_hoshino_fb
+//xmodel,t7_ba_kotori_chibi_fb
 
 //zm models
 xmodel,c_zom_zod_boxer_mpc_fb

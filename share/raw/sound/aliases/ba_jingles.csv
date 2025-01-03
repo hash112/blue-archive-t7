@@ -18,6 +18,8 @@ mus_perks_doubletap_jingle,,streamed,jingles\ba_dt_jingle.wav,,,,,,,,BUS_FX,grp_
 mus_perks_doubletap_sting,,streamed,jingles\ba_dt_sting.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,
 
 # Stamin-up
+mus_perks_stamin_jingle,,,jingles\ba_stamin_up_jingle.wav,,,UIN_MOD,,,,,BUS_FX,,,,,,75,75,50,400,401,,,,,3,oldest,,,1,1,,,,,,3d,wpn_all,,NONLOOPING,,,,,,,,,,,,,,,,,,,,,,,,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mus_perks_stamin_sting,,,jingles\ba_stamin_up_sting.wav,,,UIN_MOD,,,,,BUS_FX,,,,,,75,75,50,400,401,,,,,3,oldest,,,1,1,,,,,,3d,wpn_all,,NONLOOPING,,,,,,,,,,,,,,,,,,,,,,,,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 # Mule kick
 
@@ -34,3 +36,5 @@ mus_perks_doubletap_sting,,streamed,jingles\ba_dt_sting.wav,,,,,,,,BUS_FX,grp_am
 # Widow's wine
 
 # Pack-a-Punch
+mus_perks_packa_jingle,,streamed,jingles\ba_pap_jingle.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,
+mus_perks_packa_sting,,streamed,jingles\ba_pap_sting.wav,,,,,,,,BUS_FX,grp_ambience,snp_x3,zmb_duck_music_3d,80,0,90,90,250,1000,1500,allon,default,allon,default,6,priority,8,oldest,-50,50,40,75,0,1,no,3d,default,,nonlooping,,1,0,0,0,0,0.65,no,yes,,0,,no,,,,,,,,,yes,no,no,0,0,yes,no,,,,,no,no,no,yes,,,,,,,,,,,,,800,3000,,no,no,no,no,no,no,no,,,,

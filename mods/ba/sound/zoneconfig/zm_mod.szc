@@ -43,6 +43,12 @@
         },
         {
             "Type": "ALIAS",
+            "Name": "iw5_wpn",
+            "Filename": "iw5_weapon_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
             "Name": "iw8_wpn",
             "Filename": "iw8_weapon_sounds.csv",
             "Specs": []

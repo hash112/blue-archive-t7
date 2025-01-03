@@ -39,6 +39,15 @@ scriptparsetree,scripts/ba/zm/zm_sub.gsc
 scriptparsetree,scripts/ba/zm/zm_sub.csc
 scriptparsetree,scripts/ba/zm/coldwar_scoreevent.gsc
 
+scriptparsetree,scripts/zm/_ba_utils.gsc
+scriptparsetree,scripts/zm/_ba_utils.csc
+
+scriptparsetree,scripts/Sphynx/commands/_zm_commands.gsc
+scriptparsetree,scripts/Sphynx/commands/_zm_commands.csc
+scriptparsetree,scripts/Sphynx/commands/_zm_name_checker.gsc
+material,mc/hud_outline_model_z_red
+//material,mc/hud_outline_model_blue
+
 //Frost Iceforge's BO4 Carpenter
 scriptparsetree,scripts/ba/zm/bo4_carpenter.gsc
 
@@ -145,8 +154,8 @@ image,uie_t7_zm_hud_score_char8
 //image,uie_t7_zm_hud_score_char8_helmet
 //image,uie_t7_zm_hud_score_char8_gold_helmet
 //image,uie_t7_zm_hud_score_char8_mask
-//image,uie_t7_zm_hud_score_yuzu
-//image,uie_t7_zm_hud_score_hoshino
+image,uie_t7_zm_hud_score_yuzu
+image,uie_t7_zm_hud_score_hoshino
 
 // teddy
 xmodel,p7_zm_teddybear
@@ -162,6 +171,9 @@ xmodel,p7_zm_vending_revive
 xmodel,p7_zm_vending_doubletap2
 xmodel,p7_zm_vending_packapunch
 xmodel,p7_zm_vending_packapunch_on
+xmodel,p7_zm_vending_marathon
+xmodel,wpn_t7_zmb_perk_bottle_stimup_view
+xmodel,wpn_t7_zmb_perk_bottle_stimup_world
 
 // EE
 xmodel,c_zom_dlc_waw_dempsey_body

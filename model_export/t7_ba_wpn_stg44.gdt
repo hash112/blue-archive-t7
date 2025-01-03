@@ -39510,7 +39510,7 @@
 		"zoomMin" "1"
 		"zoomRate" "0"
 	}
-	"t7_ar_stg44_zm" ( "bulletweapon.gdf" )
+	"ar_stg44_zm" ( "bulletweapon.gdf" )
 	{
 		"activate_mode" "hold"
 		"activate_with_primed_delay" "0"

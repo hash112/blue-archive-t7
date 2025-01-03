@@ -22,7 +22,8 @@ function init_character_table()
 	level.charactertable["generic"]["shigure"] = &swap_to_shigure;
 	level.charactertable["generic"]["aru"] = &swap_to_aru;
 	level.charactertable["generic"]["izuna"] = &swap_to_izuna;
-	// level.charactertable["generic"]["yuzu"] = &swap_to_yuzu;
+	level.charactertable["generic"]["yuzu"] = &swap_to_yuzu;
+	level.charactertable["generic"]["hoshino"] = &swap_to_hoshino;
 
 	// level.charactertable["char"] = [];
 
@@ -117,9 +118,16 @@ function swap_to_izuna()
 	self thread character_util::set_character_name();
 }
 
-// function swap_to_yuzu()
-// {
-// 	self detachall();
-// 	self setmodel("t7_ba_yuzu_fb");
-// 	self thread character_util::set_character_name();
-// }
+function swap_to_yuzu()
+{
+	self detachall();
+	self setmodel("t7_ba_yuzu_fb");
+	self thread character_util::set_character_name();
+}
+
+function swap_to_hoshino()
+{
+	self detachall();
+	self setmodel("t7_ba_hoshino_fb");
+	self thread character_util::set_character_name();
+}

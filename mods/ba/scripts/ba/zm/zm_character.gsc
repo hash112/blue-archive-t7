@@ -30,8 +30,8 @@ function init_character_table()
 	level.charactertable["zm"]["shigure"] = create_shigure();
 	level.charactertable["zm"]["aru"] = create_aru();
 	level.charactertable["zm"]["izuna"] = create_izuna();
-	// level.charactertable["zm"]["yuzu"] = create_yuzu();
-	// level.charactertable["zm"]["hoshino"] = create_hoshino();
+	level.charactertable["zm"]["yuzu"] = create_yuzu();
+	level.charactertable["zm"]["hoshino"] = create_hoshino();
 
 	level.charactertable["zm_moon"] = [];
 	level.charactertable["zm_moon"]["momoi"] = create_momoi();
@@ -172,24 +172,24 @@ function create_izuna()
 	return obj;
 }
 
-// function create_yuzu()
-// {
-// 	obj = SpawnStruct();
-// 	obj.bodytype = 12;
-// 	obj.bodystyle = 0;
-// 	obj.id = "yuzu";
-// 	obj.keywords = array();
-// 	obj.name = "Yuzu";
-// 	return obj;
-// }
+function create_yuzu()
+{
+	obj = SpawnStruct();
+	obj.bodytype = 12;
+	obj.bodystyle = 0;
+	obj.id = "yuzu";
+	obj.keywords = array();
+	obj.name = "Yuzu";
+	return obj;
+}
 
-// function create_hoshino()
-// {
-// 	obj = SpawnStruct();
-// 	obj.bodytype = 13;
-// 	obj.bodystyle = 0;
-// 	obj.id = "hoshino";
-// 	obj.keywords = array();
-// 	obj.name = "Hoshino";
-// 	return obj;
-// }
+function create_hoshino()
+{
+	obj = SpawnStruct();
+	obj.bodytype = 13;
+	obj.bodystyle = 0;
+	obj.id = "hoshino";
+	obj.keywords = array();
+	obj.name = "Hoshino";
+	return obj;
+}
