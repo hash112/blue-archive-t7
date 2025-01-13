@@ -32,6 +32,8 @@ function init_character_table()
 	level.charactertable["zm"]["izuna"] = create_izuna();
 	level.charactertable["zm"]["yuzu"] = create_yuzu();
 	level.charactertable["zm"]["hoshino"] = create_hoshino();
+	level.charactertable["zm"]["kanna"] = create_kanna();
+	// level.charactertable["zm"]["hifumi"] = create_hifumi();
 
 	level.charactertable["zm_moon"] = [];
 	level.charactertable["zm_moon"]["momoi"] = create_momoi();
@@ -193,3 +195,25 @@ function create_hoshino()
 	obj.name = "Hoshino";
 	return obj;
 }
+
+function create_kanna()
+{
+	obj = SpawnStruct();
+	obj.bodytype = 14;
+	obj.bodystyle = 0;
+	obj.id = "kanna";
+	obj.keywords = array();
+	obj.name = "Kanna";
+	return obj;
+}
+
+// function create_hifumi()
+// {
+// 	obj = SpawnStruct();
+// 	obj.bodytype = 15;
+// 	obj.bodystyle = 0;
+// 	obj.id = "hifumi";
+// 	obj.keywords = array();
+// 	obj.name = "Hifumi";
+// 	return obj;
+// }

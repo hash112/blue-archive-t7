@@ -24,6 +24,8 @@ mus_perks_stamin_sting,,,jingles\ba_stamin_up_sting.wav,,,UIN_MOD,,,,,BUS_FX,,,,
 # Mule kick
 
 # Deadshot daiquiri
+mus_perks_deadshot_jingle,,,jingles\ba_deadshot_jingle.wav,,,UIN_MOD,,,,,BUS_FX,,,,,,75,75,50,400,401,,,,,3,oldest,,,1,1,,,,,,3d,wpn_all,,NONLOOPING,,,,,,,,,,,,,,,,,,,,,,,,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mus_perks_deadshot_sting,,,jingles\ba_deadshot_sting.wav,,,UIN_MOD,,,,,BUS_FX,,,,,,75,75,50,400,401,,,,,3,oldest,,,1,1,,,,,,3d,wpn_all,,NONLOOPING,,,,,,,,,,,,,,,,,,,,,,,,,,,YES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 # PHD Flopper
 

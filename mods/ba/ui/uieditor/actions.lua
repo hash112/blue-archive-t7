@@ -334,6 +334,24 @@ function GetHeroesList_InGame( customizationMode )
 		disabled = false,
 		gameImageOff = "uie_t7_zm_hud_score_hoshino",
 	})
+
+	table.insert(heroes, {
+		character = "kanna",
+		displayName = "Kanna",
+		backgroundWithCharacter = "t7_menu_mp_hero_background_with_kanna",
+		frozenMomentRender = "t7_menu_choosespecialist_default_kanna",
+		disabled = false,
+		gameImageOff = "uie_t7_zm_hud_score_kanna",
+	})
+
+	-- table.insert(heroes, {
+	-- 	character = "hifumi",
+	-- 	displayName = "Hifumi",
+	-- 	backgroundWithCharacter = "t7_menu_mp_hero_background_with_hifumi",
+	-- 	frozenMomentRender = "t7_menu_choosespecialist_default_hifumi",
+	-- 	disabled = false,
+	-- 	gameImageOff = "uie_t7_zm_hud_score_hifumi",
+	-- })
 	
 	for i, hero in ipairs( heroes ) do
 		local index = i - 1

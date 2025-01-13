@@ -41,6 +41,8 @@ function init_character_icon_table()
     level.character_icon_table["izuna"] = "uie_t7_zm_hud_score_izuna";
     level.character_icon_table["yuzu"] = "uie_t7_zm_hud_score_yuzu";
     level.character_icon_table["hoshino"] = "uie_t7_zm_hud_score_hoshino";
+    level.character_icon_table["kanna"] = "uie_t7_zm_hud_score_kanna";
+    // level.character_icon_table["hifumi"] = "uie_t7_zm_hud_score_hifumi";
 
 }
 

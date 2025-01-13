@@ -204,6 +204,14 @@ weapon,pistol_c96_upgraded_zm
 weapon,ar_stg44_upgraded_zm
 
 // Kirino (BloodHound)
+
+//xmodel,wpn_t7_zmb_zod_revolver38_view
+//xmodel,wpn_t7_zmb_zod_revolver38_world
+//xmodel,wpn_t7_zmb_zod_revolver38_dw_view
+//xmodel,wpn_t7_zmb_zod_revolver38_dw_world
+weapon,pistol_revolver38_upgraded_zm
+weapon,pistol_revolver38lh_upgraded_zm
+
 // Saten Ruiko (Thompson)
 
 // Marina (PPSh-41)
@@ -253,6 +261,10 @@ weapon,t8_vendetta_up
 
 // Kayoko (M19)
 // Kanna (X16)
+
+weapon,iw8_x16
+weapon,iw8_x16_up
+
 // Saya (Renetti)
 
 weapon,iw8_renetti

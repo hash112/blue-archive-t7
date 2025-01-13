@@ -24,6 +24,8 @@ function init_character_table()
 	level.charactertable["generic"]["izuna"] = &swap_to_izuna;
 	level.charactertable["generic"]["yuzu"] = &swap_to_yuzu;
 	level.charactertable["generic"]["hoshino"] = &swap_to_hoshino;
+	level.charactertable["generic"]["kanna"] = &swap_to_kanna;
+	// level.charactertable["generic"]["hifumi"] = &swap_to_hifumi;
 
 	// level.charactertable["char"] = [];
 
@@ -131,3 +133,17 @@ function swap_to_hoshino()
 	self setmodel("t7_ba_hoshino_fb");
 	self thread character_util::set_character_name();
 }
+
+function swap_to_kanna()
+{
+	self detachall();
+	self setmodel("t7_ba_kanna_fb");
+	self thread character_util::set_character_name();
+}
+
+// function swap_to_hifumi()
+// {
+// 	self detachall();
+// 	self setmodel("t7_ba_hifumi_fb");
+// 	self thread character_util::set_character_name();
+// }

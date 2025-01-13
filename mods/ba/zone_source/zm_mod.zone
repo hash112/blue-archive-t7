@@ -156,6 +156,8 @@ image,uie_t7_zm_hud_score_char8
 //image,uie_t7_zm_hud_score_char8_mask
 image,uie_t7_zm_hud_score_yuzu
 image,uie_t7_zm_hud_score_hoshino
+image,uie_t7_zm_hud_score_kanna
+//image,uie_t7_zm_hud_score_hifumi
 
 // teddy
 xmodel,p7_zm_teddybear
@@ -174,6 +176,7 @@ xmodel,p7_zm_vending_packapunch_on
 xmodel,p7_zm_vending_marathon
 xmodel,wpn_t7_zmb_perk_bottle_stimup_view
 xmodel,wpn_t7_zmb_perk_bottle_stimup_world
+xmodel,p7_zm_vending_ads
 
 // EE
 xmodel,c_zom_dlc_waw_dempsey_body
